@@ -1,0 +1,9 @@
+<suite name="Smoke Suite" verbose="1">
+    <test name="Smoke Test">
+        <classes>
+            <class name="RegisterPageTest"/>
+            <class name="LoginPageTest"/>
+            <class name="SearchPageTest"/>
+        </classes>
+    </test>
+</suite>
