@@ -13,8 +13,8 @@ public class RegisterPageTest extends TestBase{
         registerPage.EnterLastName("Elghanam");
         registerPage.EnterEmail("mohamedelghanam.st@gmail.com");
         registerPage.EnterCompanyName("Utrust");
-        registerPage.EnterPassword("Mido18121994##");
-        registerPage.EnterCoPassword("Mido18121994##");
+        registerPage.EnterPassword("Mido123456");
+        registerPage.EnterCoPassword("Mido123456");
         registerPage.ClickOnRegisterButton();
     }
 }

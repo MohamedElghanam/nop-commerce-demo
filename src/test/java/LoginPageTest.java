@@ -14,7 +14,7 @@ public class LoginPageTest extends TestBase {
         homePage = new HomePage(driver);
         loginPage = homePage.clickOnLoginButton();
         loginPage.EnterLoginEmail("mohamedelghanam.st@gmail.com");
-        loginPage.EnterPasswordLogin("Mido18121994##");
+        loginPage.EnterPasswordLogin("Mido123456");
         loginPage.ClickOnLoginButton();
         WebElement logoutButton = driver.findElement(By.className("ico-logout"));
         logoutButton.click();
@@ -25,7 +25,7 @@ public class LoginPageTest extends TestBase {
         homePage = new HomePage(driver);
         loginPage = homePage.clickOnLoginButton();
         loginPage.EnterLoginEmail("mohamedelghanam.st@gmail.com");
-        loginPage.EnterPasswordLogin("Mido18121994#");
+        loginPage.EnterPasswordLogin("Mido12345");
         loginPage.ClickOnLoginButton();
     }
     @Test(priority = 3)
@@ -34,7 +34,7 @@ public class LoginPageTest extends TestBase {
         homePage = new HomePage(driver);
         loginPage = homePage.clickOnLoginButton();
         loginPage.EnterLoginEmail("mohamedelghanamst@gmail.com");
-        loginPage.EnterPasswordLogin("Mido18121994##");
+        loginPage.EnterPasswordLogin("Mido123456");
         loginPage.ClickOnLoginButton();
     }
 }
